@@ -175,3 +175,84 @@ nav {
 .speaker-info p {
   color: #666;
 }
+/* PRICING */
+
+.pricing {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.pricing h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin: 15px 0 50px;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.price-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 35px;
+  transition: 0.3s;
+}
+
+.price-card:hover {
+  transform: translate(-8px);
+}
+
+.price-card h4 {
+  color: #666;
+}
+
+.price-card h3 {
+  font-size: 50px;
+  margin: 15px 0;
+}
+
+.price-card p {
+  color: #777;
+}
+
+.price-card ul {
+  margin: 30px 0;
+  padding-left: 20px;
+}
+
+.price-card li {
+  margin-bottom: 15px;
+}
+
+.price-card button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.price-card button:hover {
+  background: #1d4ed8;
+}
+
+.featured {
+  background: #0f172a;
+  color: #fff;
+}
+
+.featured p {
+  color: #ddd;
+}
