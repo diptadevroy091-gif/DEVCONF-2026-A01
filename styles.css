@@ -121,3 +121,57 @@ nav {
 .hero-btn:hover {
   background: #1d4ed8;
 }
+/* SPEAKERS */
+
+.speakers {
+  max-width: 1200px;
+  margin: 90px auto;
+  padding: 0 20px;
+}
+
+.speakers h2 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 60px;
+}
+
+.speaker-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.speaker-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.speaker-card:hover {
+  transform: translate(-10px);
+}
+
+.speaker-card img {
+  height: 320px;
+  object-fit: cover;
+}
+
+.speaker-info {
+  padding: 20px;
+}
+
+.speaker-info small {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.speaker-info h3 {
+  margin: 12px 0;
+  font-size: 28px;
+}
+
+.speaker-info p {
+  color: #666;
+}
