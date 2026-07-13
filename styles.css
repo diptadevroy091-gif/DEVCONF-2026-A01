@@ -256,3 +256,61 @@ nav {
 .featured p {
   color: #ddd;
 }
+/* AI SECTION */
+
+.ai-section {
+  width: 100%;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+}
+
+.ai-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.ai-content h2 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.ai-content p {
+  font-size: 20px;
+  line-height: 1.8;
+  color: #d1d5db;
+  margin-bottom: 40px;
+}
+
+.ai-btn {
+  display: inline-block;
+  padding: 16px 38px;
+  background: #3b82f6;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.ai-btn:hover {
+  background: #2563eb;
+  transform: translate(-4px);
+}
+/* FOOTER */
+footer {
+  background: #111827;
+  color: #fff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-icons img {
+  width: 160px;
+}
